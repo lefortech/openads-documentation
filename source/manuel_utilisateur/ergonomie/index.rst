@@ -197,6 +197,17 @@ Un lien sur chaque enregistrement permet d'accéder à la fiche de visualisation
 
 Un lien "Voir tous les dossiers évènement incomplet ou majoration sans RAR" permet d'accéder au listing des mêmes dossiers sans limite de nombre.
 
+Widget "Nouvelle demande 'nouveau dossier numérotation manuelle"
+----------------------------------------------------------------
+
+.. image:: widget_nouvelle_demande_nouveau_dossier_numerotation_manuelle.png
+
+Orienté Guichet.
+
+Raccourci permet d'accéder directement au formulaire de saisie d'une nouvelle demande dans le cadre du dépôt d'un nouveau dossier, avec la saisie manuelle du numéro de dossier.
+
+
+
 Profils
 =======
 

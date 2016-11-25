@@ -32,6 +32,11 @@ Widget *Autres dossiers*
 Widget *Dossiers auxquels on peut proposer une autre décision*
 ##############################################################
 
+Widget *Nouveau dossier avec numérotation manuelle*
+###################################################
+
+- Création d'un nouveau dossier mais avec la saisie manuelle de tout le numéro de dossier 
+
 Menu
 ----
 

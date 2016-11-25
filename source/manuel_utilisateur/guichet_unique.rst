@@ -72,6 +72,7 @@ Le reste de la saisie consiste en la saisie des informations suivantes :
 * la date de la demande
 * la ou les références cadastrales
 * l'adresse et la superficie du terrain
+* la nature des travaux ( si l'activation a été faite pour le type de dossier)
 * le pétitionnaire principal 
 * un éventuel délégataire
 * le ou les éventuels co-demandeurs

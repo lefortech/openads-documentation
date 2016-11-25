@@ -74,6 +74,11 @@ Widget *Dossiers événement incomplet ou majoration sans RAR*
 - Visualiser la liste des dossiers d'instruction affecté à l'utilisateur connecté dont l'incomplétude n'a pas été notifié au demandeur
 - Accéder aux dossiers d'instruction affecté à l'utilisateur connecté dont l'incomplétude n'a pas été notifié au demandeur
 
+Widget *Nouveau dossier avec numérotation manuelle*
+###################################################
+
+- Création d'un nouveau dossier mais avec la saisie manuelle de tout le numéro de dossier 
+
 Menu
 ----
 

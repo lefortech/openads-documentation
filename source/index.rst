@@ -55,6 +55,7 @@ Contributeurs
 * Jean-Yves Madier
 * Nicolas Meucci
 * Florent Michon
+* François Lefort
 * Virginie Pihour
 * François Raynaud
 * Sofien Timezouaght
