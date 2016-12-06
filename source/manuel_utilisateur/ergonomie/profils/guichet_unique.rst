@@ -86,7 +86,7 @@ Rubrique *Guichet Unique*
 
 * Ajouter un nouveau dossier d'autorisation
 * Récupérer l'addresse de la parcelle (si option activée)
-* Saisir la nature des travaux ( si l'activation a été faite pour le type de dossier)
+* Saisir la nature des travaux ( optionnel, voir :ref:`la gestion des collectivités <administration_collectivite>` pour l'activation de l'option **nouveau_dossier_saisie_nature_travaux**)  
 * Saisir le pétitionnaire principal
 * Ajouter un pétitionnaire
 * Saisir un autre correspondant

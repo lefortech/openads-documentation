@@ -65,6 +65,7 @@ Utilisation des options :
 * **option_portail_acces_citoyen** : permet d'activer ou de désactiver l'accès au :ref:`portail citoyen <portail_citoyen>`.
 * **option_notification_piece_numerisee** : permet d'activer ou de désactiver l'ajout de :ref:`message de notification <instruction_dossier_message>`.
 * **option_date_depot_demande_defaut** : permet d'afficher (*true*) ou non (*false*) la date du jour dans le champ de la date de dépôt lors de l'ajout d'une demande. La valeur par défaut est *true*.
+* **nouveau_dossier_saisie_nature_travaux** : permet d'activer au dépôt de dossier , la saisie de la nature des travaux, pour tous les types d'autorisation PC/PCMI, DP et PA. La valeur par défaut est NON, pour l'activer valeur OUI. Pour son application voir :ref:`Saisie commune (nouveau dossier ou dossier existant) de la nouvelle demande<guichet_unique_nouvelle_demande_autre_dossier>`.
 
 .. note::
 

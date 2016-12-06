@@ -99,6 +99,27 @@ Régénérer la clé d'accès au portail citoyen
 
 L'action génère une nouvelle clé d'accès qui écrase l'ancienne, ce qui la rend inutilisable. Cette action n'est disponible que pour les administrateurs et demande une confirmation de la part de l'utilisateur.
 
+Suppression totale d'un dossier d'instruction (DI)
+==================================================
+
+Un dossier d'instruction peut être supprimé pour les problèmes suivants :
+
+* numéro de dossier erronée
+* type de dossier erroné
+	
+Un dossier d'instruction sera entièrement supprimé (données techniques  Cerfa, pétitionnaires, dossier d'autorisation et références cadastrales, rapport d'instruction, dossier d'autorisation)
+avec les conditions suivantes :
+
+* avec seulement comme évènement d'instruction actif possible : la notification du delai légal
+* sans aucune commission créée
+* sans aucun message créé
+* sans aucun bloc-note créé
+
+Après validation de la suppression le message suivant doit apparaître
+
+.. image:: instruction_suppression_dossier_message.png
+
+
 =============================
 Gestion des pièces du dossier
 =============================

@@ -77,7 +77,7 @@ Widget *Dossiers événement incomplet ou majoration sans RAR*
 Widget *Nouveau dossier avec numérotation manuelle*
 ###################################################
 
-- Création d'un nouveau dossier mais avec la saisie manuelle de tout le numéro de dossier 
+- Optionnel : Création d'un nouveau dossier mais avec la saisie manuelle de tout le numéro de dossier 
 
 Menu
 ----

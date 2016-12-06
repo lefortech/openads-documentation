@@ -67,12 +67,17 @@ Après la sélection du type de la demande, une fenêtre d'aide à la saisie
 affichera la liste des documents obligatoires, chaque élément de la liste
 devra être coché afin de continuer la saisie (voir :ref:`parametrage_dossiers_demande_type` pour paramétrer cette liste de document).
 
-Le reste de la saisie consiste en la saisie des informations suivantes :
+Le reste de la saisie concerne les informations suivantes :
 
 * la date de la demande
 * la ou les références cadastrales
 * l'adresse et la superficie du terrain
-* la nature des travaux ( si l'activation a été faite pour le type de dossier)
+* la nature des travaux ( optionnel, voir :ref:`administration_collectivite` pour l'activation de l'option **nouveau_dossier_saisie_nature_travaux**).  
+
+  La nature de travaux est disponible pour les types d'autorisation détaillés : PC/PCMI, DP ou PA
+  
+  La nature des travaux peut-être utilisée dans le récépissé de dépôt (champ de fusion [erp_desc_nature_travaux] ).
+
 * le pétitionnaire principal 
 * un éventuel délégataire
 * le ou les éventuels co-demandeurs
@@ -82,6 +87,50 @@ en effet si la saisie concerne un nouveau dossier alors la saisie du
 pétitionnaire est nécessaire alors que si la demande concerne un dossier
 existant les informations du pétitionnaire sont déjà préremplies et il n'est
 donc pas nécessaire de les saisir.
+
+
+.. _guichet_unique_nouvelle_demande_numerotation_manuelle:
+
+======================================================
+Saisir une nouvelle demande avec numérotation manuelle
+======================================================
+
+(Guichet Unique ‣ Nouvelle demande ‣ Nouveau Dossier avec saisie manuelle du numéro de dossier)
+
+Cette fonction est liée à la mise en place d'un widget :
+
+Pour la mise en place ensuite du widget utilisant ce paramètre, voir :ref:`administration des widgets <administration_widget>`
+et l'installation des options suivantes :
+
+* libellé : Nouveau dossier avec numérotation manuelle
+* type : file - le contenu du widget provient d'un script sur le serveur
+* Script : nouvelle_demande_nouveau_dossier_manuel
+* Type : file
+
+
+La demande va donner lieu à la création d’un nouveau dossier d’autorisation en tout point identique à une nouvelle demande classique 
+mais avec la nécessité de saisir manuellement le numéro dossier.
+
+Avec dans l'ordre de la séquence :
+
+* sélection de la collectivité
+* sélection du type d'autorisation détaillée
+* sélection du type de demande
+* la saisie manuelle du numéro de dossier, avec le contrôle de la part du code insee dans ce numéro et un contrôle d'unicité du numéro saisi.
+
+Le reste de la saisie concerne les informations suivantes :
+
+* la date de la demande
+* la ou les références cadastrales
+* l'adresse et la superficie du terrain
+* la nature des travaux ( optionnel, voir :ref:`administration_collectivite` pour l'activation de l'option **nouveau_dossier_saisie_nature_travaux**).  
+
+  Rappel : La nature des travaux peut-être utilisée dans le récépissé de dépôt (champ de fusion [erp_desc_nature_travaux] ).
+
+* le pétitionnaire principal 
+* un éventuel délégataire
+* le ou les éventuels co-demandeurs
+
 
 
 .. _guichet_unique_nouvelle_demande_recepisse:

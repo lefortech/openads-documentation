@@ -1,9 +1,9 @@
 .. openads documentation master file, created by
    sphinx-quickstart on Wed Jul 20 17:30:38 2011.
 
-========================
-Documentation de openADS
-========================
+=======================
+Documentation d'openADS
+=======================
 
 .. note::
 
