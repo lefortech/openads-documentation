@@ -49,6 +49,7 @@ Contributeurs
 (par ordre alphabétique)
 
 * `atReal <http://www.atreal.fr>`_
+* `Groupe SIRAP <http://www.sirap.fr>`_
 * Thierry Benita
 * Matthias Broquet
 * Nicolas Haye

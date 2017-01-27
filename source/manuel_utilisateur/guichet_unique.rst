@@ -97,7 +97,9 @@ Saisir une nouvelle demande avec numérotation manuelle
 
 (Guichet Unique ‣ Nouvelle demande ‣ Nouveau Dossier avec saisie manuelle du numéro de dossier)
 
-Cette fonction est liée à la mise en place d'un widget :
+Cette fonctionnalité est accessible depuis :
+* une entrée de menu : dans le menu Guichet unique / Nouvelle demande / sous l'entrée de menu "Nouveau dossier"
+* sur le tableau de bord, un widget "nouvelle demande avec numérotation manuelle" sous le widget "Nouveau dossier".
 
 Pour la mise en place ensuite du widget utilisant ce paramètre, voir :ref:`administration des widgets <administration_widget>`
 et l'installation des options suivantes :
@@ -107,6 +109,9 @@ et l'installation des options suivantes :
 * Script : nouvelle_demande_nouveau_dossier_manuel
 * Type : file
 
+Cette fonctionnalité optionnelle est à activer via la gestion du paramètre qui est appelé
+*option_creation_dossier_numerotation_manuelle*
+Cette option a comme valeur *false* (option désactivée) par défaut.
 
 La demande va donner lieu à la création d’un nouveau dossier d’autorisation en tout point identique à une nouvelle demande classique 
 mais avec la nécessité de saisir manuellement le numéro dossier.
@@ -131,6 +136,22 @@ Le reste de la saisie concerne les informations suivantes :
 * un éventuel délégataire
 * le ou les éventuels co-demandeurs
 
+Profils pouvant utiliser cette fonction :
+
+* ADMINISTRATEUR TECHNIQUE ET FONCTIONNEL
+* ADMINISTRATEUR TECHNIQUE
+* ADMINISTRATEUR FONCTIONNEL
+* ADMINISTRATEUR GENERAL
+* DIVISIONNAIRE
+* INSTRUCTEUR POLYVALENT
+ces profils oeuvent bénéficier d'un widget correspondant à cette fonction.
+
+Profils exclus de cette fonctionnalité :
+
+* Instructeur
+* Instructeur polyvalent commune
+* Guichet unique
+* Guichet et suivi
 
 
 .. _guichet_unique_nouvelle_demande_recepisse:

@@ -119,6 +119,11 @@ Après validation de la suppression le message suivant doit apparaître
 
 .. image:: instruction_suppression_dossier_message.png
 
+Cette fonctionnalité est à activer via la gestion du paramètre qui est appelé
+*option_suppression_dossier_autorisation*
+Cette option a comme valeur *false* (option désactivée) par défaut.
+
+
 
 =============================
 Gestion des pièces du dossier
