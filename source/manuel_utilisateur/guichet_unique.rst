@@ -144,6 +144,7 @@ Profils pouvant utiliser cette fonction :
 * ADMINISTRATEUR GENERAL
 * DIVISIONNAIRE
 * INSTRUCTEUR POLYVALENT
+
 ces profils oeuvent bénéficier d'un widget correspondant à cette fonction.
 
 Profils exclus de cette fonctionnalité :
